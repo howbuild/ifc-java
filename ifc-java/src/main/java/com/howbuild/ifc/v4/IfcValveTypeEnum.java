@@ -1,0 +1,39 @@
+package com.howbuild.ifc.v4;
+
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.ArrayList;
+
+/**
+ * <pre>{@code
+ * IfcValveTypeEnum = ENUMERATION OF
+ * (AIRRELEASE
+ * ,ANTIVACUUM
+ * ,CHANGEOVER
+ * ,CHECK
+ * ,COMMISSIONING
+ * ,DIVERTING
+ * ,DRAWOFFCOCK
+ * ,DOUBLECHECK
+ * ,DOUBLEREGULATING
+ * ,FAUCET
+ * ,FLUSHING
+ * ,GASCOCK
+ * ,GASTAP
+ * ,ISOLATING
+ * ,MIXING
+ * ,PRESSUREREDUCING
+ * ,PRESSURERELIEF
+ * ,REGULATING
+ * ,SAFETYCUTOFF
+ * ,STEAMTRAP
+ * ,STOPCOCK
+ * ,USERDEFINED
+ * ,NOTDEFINED);
+ * }</pre>
+ *
+ * @see <a href="https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcvalvetypeenum.htm">IfcValveTypeEnum</a>
+ */
+public enum IfcValveTypeEnum {AIRRELEASE,ANTIVACUUM,CHANGEOVER,CHECK,COMMISSIONING,DIVERTING,DRAWOFFCOCK,DOUBLECHECK,DOUBLEREGULATING,FAUCET,FLUSHING,GASCOCK,GASTAP,ISOLATING,MIXING,PRESSUREREDUCING,PRESSURERELIEF,REGULATING,SAFETYCUTOFF,STEAMTRAP,STOPCOCK,USERDEFINED,NOTDEFINED}

@@ -1,0 +1,20 @@
+# OS/IDE
+.DS_Store
+**/.DS_Store
+.idea/
+*.iml
+
+# Maven build output
+/target/
+*/target/
+
+# ANTLR cache
+.antlr/
+
+# Local tools
+.vscode/
+.venv/
+tmp/
+
+# Optional vendored generator repo
+/IFC-gen/

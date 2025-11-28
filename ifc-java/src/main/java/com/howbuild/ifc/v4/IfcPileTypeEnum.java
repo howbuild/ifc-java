@@ -1,0 +1,24 @@
+package com.howbuild.ifc.v4;
+
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.ArrayList;
+
+/**
+ * <pre>{@code
+ * IfcPileTypeEnum = ENUMERATION OF
+ * (BORED
+ * ,DRIVEN
+ * ,JETGROUTING
+ * ,COHESION
+ * ,FRICTION
+ * ,SUPPORT
+ * ,USERDEFINED
+ * ,NOTDEFINED);
+ * }</pre>
+ *
+ * @see <a href="https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcpiletypeenum.htm">IfcPileTypeEnum</a>
+ */
+public enum IfcPileTypeEnum {BORED,DRIVEN,JETGROUTING,COHESION,FRICTION,SUPPORT,USERDEFINED,NOTDEFINED}

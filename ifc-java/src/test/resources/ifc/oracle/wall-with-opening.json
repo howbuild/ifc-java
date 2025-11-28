@@ -1,0 +1,210 @@
+{
+  "source": "wall-with-opening-and-window.ifc",
+  "entity_count": 9,
+  "by_type": {
+    "IfcProject": 1,
+    "IfcGeometricRepresentationContext": 1,
+    "IfcBuilding": 1,
+    "IfcAxis2Placement3D": 1,
+    "IfcRelAggregates": 1,
+    "IfcShapeRepresentation": 1,
+    "IfcPolyline": 1,
+    "IfcCartesianPoint": 2
+  },
+  "entities": [
+    {
+      "id": 1,
+      "type": "IfcProject",
+      "global_id": "28hypXUBvBefc20SI8kfA$",
+      "name": "Default Project",
+      "attrs": {
+        "GlobalId": "28hypXUBvBefc20SI8kfA$",
+        "OwnerHistory": {
+          "ref": 2,
+          "type": "IfcOwnerHistory",
+          "global_id": null
+        },
+        "Name": "Default Project",
+        "Description": "Description of Default Project",
+        "ObjectType": null,
+        "LongName": null,
+        "Phase": null,
+        "RepresentationContexts": [
+          {
+            "ref": 20,
+            "type": "IfcGeometricRepresentationContext",
+            "global_id": null
+          }
+        ],
+        "UnitsInContext": {
+          "ref": 7,
+          "type": "IfcUnitAssignment",
+          "global_id": null
+        }
+      }
+    },
+    {
+      "id": 20,
+      "type": "IfcGeometricRepresentationContext",
+      "global_id": null,
+      "name": null,
+      "attrs": {
+        "ContextIdentifier": null,
+        "ContextType": "Model",
+        "CoordinateSpaceDimension": 3,
+        "Precision": 1e-05,
+        "WorldCoordinateSystem": {
+          "ref": 21,
+          "type": "IfcAxis2Placement3D",
+          "global_id": null
+        },
+        "TrueNorth": {
+          "ref": 23,
+          "type": "IfcDirection",
+          "global_id": null
+        }
+      }
+    },
+    {
+      "id": 34,
+      "type": "IfcBuilding",
+      "global_id": "0AqAhXVxvCy9m0OX1nxY1A",
+      "name": "Default Building",
+      "attrs": {
+        "GlobalId": "0AqAhXVxvCy9m0OX1nxY1A",
+        "OwnerHistory": {
+          "ref": 2,
+          "type": "IfcOwnerHistory",
+          "global_id": null
+        },
+        "Name": "Default Building",
+        "Description": "Description of Default Building",
+        "ObjectType": null,
+        "ObjectPlacement": {
+          "ref": 35,
+          "type": "IfcLocalPlacement",
+          "global_id": null
+        },
+        "Representation": null,
+        "LongName": null,
+        "CompositionType": "ELEMENT",
+        "ElevationOfRefHeight": null,
+        "ElevationOfTerrain": null,
+        "BuildingAddress": {
+          "ref": 37,
+          "type": "IfcPostalAddress",
+          "global_id": null
+        }
+      }
+    },
+    {
+      "id": 40,
+      "type": "IfcAxis2Placement3D",
+      "global_id": null,
+      "name": null,
+      "attrs": {
+        "Location": {
+          "ref": 24,
+          "type": "IfcCartesianPoint",
+          "global_id": null
+        },
+        "Axis": null,
+        "RefDirection": null
+      }
+    },
+    {
+      "id": 43,
+      "type": "IfcRelAggregates",
+      "global_id": "3IdcKtxyTFSPDjAagDGuOq",
+      "name": "ProjectContainer",
+      "attrs": {
+        "GlobalId": "3IdcKtxyTFSPDjAagDGuOq",
+        "OwnerHistory": {
+          "ref": 2,
+          "type": "IfcOwnerHistory",
+          "global_id": null
+        },
+        "Name": "ProjectContainer",
+        "Description": "ProjectContainer for Sites",
+        "RelatingObject": {
+          "ref": 1,
+          "type": "IfcProject",
+          "global_id": "28hypXUBvBefc20SI8kfA$"
+        },
+        "RelatedObjects": [
+          {
+            "ref": 31,
+            "type": "IfcSite",
+            "global_id": "1cwlDi_hLEvPsClAelBNnz"
+          }
+        ]
+      }
+    },
+    {
+      "id": 66,
+      "type": "IfcShapeRepresentation",
+      "global_id": null,
+      "name": null,
+      "attrs": {
+        "ContextOfItems": {
+          "ref": 134,
+          "type": "IfcGeometricRepresentationSubContext",
+          "global_id": null
+        },
+        "RepresentationIdentifier": "Axis",
+        "RepresentationType": "Curve2D",
+        "Items": [
+          {
+            "ref": 67,
+            "type": "IfcPolyline",
+            "global_id": null
+          }
+        ]
+      }
+    },
+    {
+      "id": 67,
+      "type": "IfcPolyline",
+      "global_id": null,
+      "name": null,
+      "attrs": {
+        "Points": [
+          {
+            "ref": 68,
+            "type": "IfcCartesianPoint",
+            "global_id": null
+          },
+          {
+            "ref": 69,
+            "type": "IfcCartesianPoint",
+            "global_id": null
+          }
+        ]
+      }
+    },
+    {
+      "id": 68,
+      "type": "IfcCartesianPoint",
+      "global_id": null,
+      "name": null,
+      "attrs": {
+        "Coordinates": [
+          0.0,
+          150.0
+        ]
+      }
+    },
+    {
+      "id": 69,
+      "type": "IfcCartesianPoint",
+      "global_id": null,
+      "name": null,
+      "attrs": {
+        "Coordinates": [
+          3000.0,
+          150.0
+        ]
+      }
+    }
+  ]
+}
